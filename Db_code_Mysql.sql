@@ -1,3 +1,4 @@
+--                                         <<THIS A DADATABASE CODE >>
 -- Création de la base de données
 CREATE DATABASE Pharmacie_Management;
 
