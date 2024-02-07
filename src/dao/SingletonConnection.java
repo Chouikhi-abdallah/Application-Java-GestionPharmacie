@@ -42,27 +42,7 @@ new SingletonConnection();
 return connect;
 
 }
-/*public static void main(String argvs[]) {
-	
-	Connection Conn=SingletonConnection.getInstance();
-	try {
-	    Statement statement = Conn.createStatement();
-	    ResultSet resultSet = statement.executeQuery("SELECT * FROM Utilisateurs");
 
-	    while (resultSet.next()) {
-	        // Process the retrieved data
-	        int column1Value = resultSet.getInt("id_utilisateur");
-	        String column2Value = resultSet.getString("nom_utilisateur");
-	        String motpasse=resultSet.getString("mot_de_passe");
-	        String type=resultSet.getString("type_utilisateur");
-	        System.out.println(column1Value+" "+column2Value+" "+motpasse+" "+type);
-	    }
-
-	    resultSet.close();
-	    statement.close();
-	} catch (SQLException e) {
-	    e.printStackTrace();
-	}*/
 }
 
 
